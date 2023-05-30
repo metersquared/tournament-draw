@@ -14,19 +14,115 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  box-shadow: 0 0 100px rgba(0,0,0,0.5) inset;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+.card-front {
+  background-color:beige;
+  color: black;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color:black;
+  border:0;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 10%;
+}
+
+.card-back {
+  background-color:white;
+  color: #282c34;
+  font-size: smaller;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:0;
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 10%;
+}
+
+#table {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  margin-bottom: 1%;
+}
+
+#table .group{
+  align-content: flex-start;
+  width: 25%;
+  font-size:smaller;
+}
+
+.shuffle-button{
+  background-color:white;
+  align-self: center;
+  color: black;
+  width:fit-content;
+  padding-inline: 10px;
+  border:0;
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 10%;
+  font-size: smaller;
+}
+
+.shuffle-box{
+  font-size: smaller ;
+
+}
+
+.slot-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap:20px;
+  width: 50%;
+}
+
+.p{
+  font-size:x-small
+}
+
+#table .flag{
+  height: 20px;
+  width: auto;
+  align-self: center;
+  justify-self: flex-start;
+  margin-inline: 10px;
+}
+
+#table .team-name{
+  flex:0.9;
+  justify-self: center;
+}
+
+#table .team{
+  flex-direction: row;
+  display: flex;
+  font-size: small;
+}
+
 
 @keyframes App-logo-spin {
   from {
