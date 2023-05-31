@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tournament-draw/static/css/main.66cbe940.css",
-    "main.js": "/tournament-draw/static/js/main.5f3ad0ed.js",
+    "main.js": "/tournament-draw/static/js/main.347e4adf.js",
     "static/js/787.a6268ee8.chunk.js": "/tournament-draw/static/js/787.a6268ee8.chunk.js",
     "index.html": "/tournament-draw/index.html",
     "main.66cbe940.css.map": "/tournament-draw/static/css/main.66cbe940.css.map",
-    "main.5f3ad0ed.js.map": "/tournament-draw/static/js/main.5f3ad0ed.js.map",
+    "main.347e4adf.js.map": "/tournament-draw/static/js/main.347e4adf.js.map",
     "787.a6268ee8.chunk.js.map": "/tournament-draw/static/js/787.a6268ee8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66cbe940.css",
-    "static/js/main.5f3ad0ed.js"
+    "static/js/main.347e4adf.js"
   ]
 }
