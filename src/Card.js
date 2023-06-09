@@ -12,6 +12,7 @@ function Card(props) {
     teamname,
     teamnames,
     setTeamname,
+    cardback,
   } = props;
 
   const addTeam = (name) => {
@@ -36,7 +37,7 @@ function Card(props) {
         >
           <img
             style={{ height: "100%", width: "100%", objectFit: "scale-down" }}
-            src="bearminton.svg"
+            src={cardback}
           />
         </div>
         <div className="card-front">

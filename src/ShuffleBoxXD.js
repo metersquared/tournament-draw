@@ -5,7 +5,7 @@ import { gsap } from "gsap";
 
 import Card from "./Card";
 
-function ShuffleBox(props) {
+function ShuffleBoxXD(props) {
   const ref = useRef(null);
   const [isPresent, safeToRemove] = usePresence();
 
@@ -63,10 +63,11 @@ function ShuffleBox(props) {
         ) : null}
       </div>
 
-      <div className="slot-grid">
+      <div className="slot-grid-xd">
         {slots.map((slot) => (
           <div key={slot.id}>
             <Card
+              cardback={"/tournament-draw/bearminton.svg"}
               group={slot["0"]}
               team={slot["1"]}
               setSortedGroup={setSortedGroup}
@@ -82,4 +83,4 @@ function ShuffleBox(props) {
   );
 }
 
-export default ShuffleBox;
+export default ShuffleBoxXD;
